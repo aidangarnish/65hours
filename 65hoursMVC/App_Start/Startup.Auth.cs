@@ -55,8 +55,8 @@ namespace _65hoursMVC
                consumerSecret: "SlmbH1fG0gLUg823Me2xh78nYX13okJsiOxbFak2yZXluSQ2Rj");
 
             app.UseFacebookAuthentication(
-               appId: "403847753096314",
-               appSecret: "dd540eaed4727c49b449f7c903a6daee");
+               appId: "1559637540938854",
+               appSecret: "7b0f0d9160658198686cb3ca5790758a");
 
             //app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
             //{
