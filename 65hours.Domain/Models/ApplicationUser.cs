@@ -22,9 +22,9 @@ namespace _65hours.Domain.Models
 
         [NotMapped]
         public string RolesAssigned { get; set; }
-
         public string FirstName { get; set; }
-
         public string LastName { get; set; }
+        public string Location { get; set; }
+        public bool Active { get; set; }
     }
 }

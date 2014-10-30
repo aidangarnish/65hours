@@ -57,6 +57,9 @@
     <Compile Include="AbstractServices\ISkillService.cs" />
     <Compile Include="Models\ApplicationUser.cs" />
     <Compile Include="Models\Skill.cs" />
+    <Compile Include="Models\Transaction.cs" />
+    <Compile Include="Models\UserRequest.cs" />
+    <Compile Include="Models\UserSkill.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\SkillService.cs" />
   </ItemGroup>
