@@ -54,6 +54,10 @@
   <ItemGroup>
     <Compile Include="AbstractRepository\IRepository.cs" />
     <Compile Include="AbstractRepository\ISkillRepository.cs" />
+    <Compile Include="AbstractRepository\ITransactionRepository.cs" />
+    <Compile Include="AbstractRepository\IUserRequestRepository.cs" />
+    <Compile Include="AbstractRepository\IUserSkillRepository.cs" />
+    <Compile Include="AbstractServices\IApplicationUserService.cs" />
     <Compile Include="AbstractServices\ISkillService.cs" />
     <Compile Include="Models\ApplicationUser.cs" />
     <Compile Include="Models\Skill.cs" />

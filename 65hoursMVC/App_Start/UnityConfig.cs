@@ -5,6 +5,12 @@ using _65hours.Domain.AbstractRepository;
 using _65hours.Repository.EFRepository;
 using _65hours.Domain.AbstractServices;
 using _65hours.Domain.Services;
+using Microsoft.AspNet.Identity;
+using Microsoft.AspNet.Identity.EntityFramework;
+using _65hours.Domain.Models;
+using System.Data.Entity;
+using Microsoft.Owin.Security;
+using _65hoursMVC.Controllers;
 
 namespace _65hoursMVC.App_Start
 {
@@ -40,8 +46,15 @@ namespace _65hoursMVC.App_Start
             // container.LoadConfiguration();
 
             // TODO: Register your types here
+            
             container.RegisterType<ISkillRepository, EFSkillRepository>();
             container.RegisterType<ISkillService, SkillService>();
+
+            //the following 4 lines are required to make Unity play nicely with ASP.Net Identity 2.0
+            container.RegisterType<DbContext, ApplicationDbContext>(new HierarchicalLifetimeManager());
+            container.RegisterType<UserManager<ApplicationUser>>(new HierarchicalLifetimeManager());
+            container.RegisterType<IUserStore<ApplicationUser>, UserStore<ApplicationUser>>(new HierarchicalLifetimeManager());
+            container.RegisterType<AccountController>(new InjectionConstructor());
         }
     }
 }
