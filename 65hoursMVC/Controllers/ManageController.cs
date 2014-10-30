@@ -7,6 +7,7 @@ using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
 using _65hoursMVC.Models;
+using _65hours.Domain.Models;
 
 namespace _65hoursMVC.Controllers
 {

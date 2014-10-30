@@ -6,6 +6,8 @@ using Microsoft.Owin.Security.Cookies;
 using Microsoft.Owin.Security.Google;
 using Owin;
 using _65hoursMVC.Models;
+using _65hours.Repository.EFRepository;
+using _65hours.Domain.Models;
 
 namespace _65hoursMVC
 {

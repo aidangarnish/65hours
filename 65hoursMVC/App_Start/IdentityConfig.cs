@@ -11,6 +11,8 @@ using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin;
 using Microsoft.Owin.Security;
 using _65hoursMVC.Models;
+using _65hours.Repository.EFRepository;
+using _65hours.Domain.Models;
 
 namespace _65hoursMVC
 {
