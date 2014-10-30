@@ -13,7 +13,7 @@ namespace _65hours.Domain.Models
             Created = DateTime.UtcNow;
             Modified = DateTime.UtcNow;
         }
-        public int RequestID { get; set; }
+        public int UserRequestID { get; set; }
         public string Title { get; set; }
         public string Description { get; set; }
         public string UserID { get; set; }
