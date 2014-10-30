@@ -215,13 +215,48 @@
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\style.css">
+      <DependentUpon>style.scss</DependentUpon>
+    </Content>
+    <Content Include="Content\style.min.css">
+      <DependentUpon>style.css</DependentUpon>
+    </Content>
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
-    <Content Include="Content\Site.css" />
+    <Content Include="Images\65hourslogo.jpg" />
+    <Content Include="Images\65hourslogo.png" />
+    <Content Include="Images\credit_img.jpg" />
+    <Content Include="Images\delete-icon.png" />
+    <Content Include="Images\five.jpg" />
+    <Content Include="Images\four.jpg" />
+    <Content Include="Images\ftr_acorn.png" />
+    <Content Include="Images\green_bg.jpg" />
+    <Content Include="Images\human.png" />
+    <Content Include="Images\login_btn.png" />
+    <Content Include="Images\login_btn_over.png" />
+    <Content Include="Images\logo.png" />
+    <Content Include="Images\one.jpg" />
+    <Content Include="Images\prof_img.jpg" />
+    <Content Include="Images\register_bg.jpg" />
+    <Content Include="Images\reg_btn.gif" />
+    <Content Include="Images\reg_btn.png" />
+    <Content Include="Images\reg_btn_over.png" />
+    <Content Include="Images\reg_img.jpg" />
+    <Content Include="Images\search_img.jpg" />
+    <Content Include="Images\squirrel.jpg" />
+    <Content Include="Images\three.jpg" />
+    <Content Include="Images\twitter.png" />
+    <Content Include="Images\twitter_bg.jpg" />
+    <Content Include="Images\twitter_icon.jpg" />
+    <Content Include="Images\two.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="ApplicationInsights.config" />
+    <Content Include="Content\style.scss" />
+    <Content Include="Content\style.css.map">
+      <DependentUpon>style.css</DependentUpon>
+    </Content>
     <None Include="Properties\PublishProfiles\65hoursMVC.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
@@ -246,8 +281,6 @@
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\Home\About.cshtml" />
-    <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
     <Content Include="Views\Account\_ChangePasswordPartial.cshtml" />
@@ -273,6 +306,8 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="Views\Account\Profile.cshtml" />
+    <Content Include="Views\Account\UpdateUser.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

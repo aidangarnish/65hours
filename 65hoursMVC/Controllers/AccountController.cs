@@ -49,6 +49,24 @@ namespace _65hoursMVC.Controllers
             return View();
         }
 
+        public ActionResult Profile()
+        {
+            var currentUserId = User.Identity.GetUserId();
+            var currentUser = UserManager.FindById(currentUserId);
+
+            return View(currentUser);
+        }
+
+        public ActionResult UpdateUser()
+        {
+            var currentUserId = User.Identity.GetUserId();
+            var currentUser = UserManager.FindById(currentUserId);
+
+            currentUser.LastName = "Garnish";
+            UserManager.Update(currentUser);
+            return View();
+        }
+
         private ApplicationSignInManager _signInManager;
 
         public ApplicationSignInManager SignInManager
