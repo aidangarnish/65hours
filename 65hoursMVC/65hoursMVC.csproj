@@ -222,6 +222,7 @@
       <DependentUpon>style.css</DependentUpon>
     </Content>
     <Content Include="favicon.ico" />
+    <Content Include="fonts\BebasNeue-webfont.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Images\65hourslogo.jpg" />
@@ -237,6 +238,7 @@
     <Content Include="Images\login_btn_over.png" />
     <Content Include="Images\logo.png" />
     <Content Include="Images\one.jpg" />
+    <Content Include="Images\pay_img.jpg" />
     <Content Include="Images\prof_img.jpg" />
     <Content Include="Images\register_bg.jpg" />
     <Content Include="Images\reg_btn.gif" />
@@ -257,6 +259,9 @@
     <Content Include="Content\style.css.map">
       <DependentUpon>style.css</DependentUpon>
     </Content>
+    <Content Include="fonts\BebasNeue-webfont.eot" />
+    <Content Include="fonts\BebasNeue-webfont.ttf" />
+    <Content Include="fonts\BebasNeue-webfont.woff" />
     <None Include="Properties\PublishProfiles\65hoursMVC.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
